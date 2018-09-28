@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8020C593215EB256005CEF45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020C592215EB256005CEF45 /* AppDelegate.swift */; };
-		8020C595215EB256005CEF45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020C594215EB256005CEF45 /* ViewController.swift */; };
 		8020C598215EB256005CEF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8020C596215EB256005CEF45 /* Main.storyboard */; };
 		8020C59A215EB257005CEF45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8020C599215EB257005CEF45 /* Assets.xcassets */; };
-		8020C59D215EB257005CEF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8020C59B215EB257005CEF45 /* LaunchScreen.storyboard */; };
+		8020C5A5215EB4F3005CEF45 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020C5A4215EB4F3005CEF45 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8020C58F215EB256005CEF45 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8020C592215EB256005CEF45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8020C594215EB256005CEF45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8020C597215EB256005CEF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8020C599215EB257005CEF45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8020C59C215EB257005CEF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8020C59E215EB257005CEF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8020C5A4215EB4F3005CEF45 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				8020C592215EB256005CEF45 /* AppDelegate.swift */,
-				8020C594215EB256005CEF45 /* ViewController.swift */,
 				8020C596215EB256005CEF45 /* Main.storyboard */,
 				8020C599215EB257005CEF45 /* Assets.xcassets */,
-				8020C59B215EB257005CEF45 /* LaunchScreen.storyboard */,
 				8020C59E215EB257005CEF45 /* Info.plist */,
+				8020C5A4215EB4F3005CEF45 /* ColorsViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -122,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8020C59D215EB257005CEF45 /* LaunchScreen.storyboard in Resources */,
 				8020C59A215EB257005CEF45 /* Assets.xcassets in Resources */,
 				8020C598215EB256005CEF45 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8020C595215EB256005CEF45 /* ViewController.swift in Sources */,
+				8020C5A5215EB4F3005CEF45 /* ColorsViewController.swift in Sources */,
 				8020C593215EB256005CEF45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,14 +145,6 @@
 				8020C597215EB256005CEF45 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8020C59B215EB257005CEF45 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8020C59C215EB257005CEF45 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
